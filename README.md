@@ -6,3 +6,6 @@ For the first process, we can use multivariate Gaussian Distributions to determi
 
 <p align = "center"><img src = "https://github.com/yashjain12/SereneX-OutlierDetection/assets/20261791/acad545a-39d8-4397-9914-7dada2de1e6a" width = "250"/></p>
 <p align = "center">20 percent of data values have |z-score| > 1.28 and can be classified as outliers</p>
+
+Let's look at three of the input features and the actual outliers:
+<p align = "center"><img src = "https://github.com/yashjain12/SereneX-OutlierDetection/assets/20261791/e9762bda-fe81-4190-b894-21092225f55a" width = "250"/></p>
