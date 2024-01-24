@@ -13,3 +13,6 @@ Let's look at three of the input features and the actual outliers:
 First, we experimented with the OpenAI **GPT-4** model, which combined with **LangChain** framework, can feed a dataframe in csv format as input and allow the GPT-4 model to come up with a simple multivariate linear model that minimizes least squared error. Then, we performed **hyperparameter tuning using gridSearchCV** and a scoring function of the form for **Isolation Forest**: <img src = "https://github.com/yashjain12/SereneX-OutlierDetection/assets/20261791/429d3d0e-80b6-4ef7-b8fd-93ac51e82456" width = "150"/>
 
 (where $x$ = data point and $m$ = total number of points, $h(x)$ = search depth for $x$ from the isolate tree, $c(m)$ = Expected value of search depth of a node in a isolate tree)
+
+Linear multivariate regression and isolation forest models were used to find outliers in two datasets: the first dataset had a distribution of step count and heart rate that came from a normal distribution, whereas the second dataset had a distribution of step count and heart rate that came from a random uniform distribution over an interval. Here is the accuracy chart for each model:
+<p align = "center"><img src = "https://github.com/yashjain12/SereneX-OutlierDetection/assets/20261791/311ce44d-094c-4469-adcc-7e5747f9215f" width = "400"/></p>
